@@ -1,0 +1,19 @@
+{
+  "name": "dreamix-loader",
+  "version": "1.0.0",
+  "description": "loader",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnieFucker/dreamix-loader.git"
+  },
+  "keywords": [
+    "loader"
+  ],
+  "author": "Shine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnnieFucker/dreamix-loader/issues"
+  },
+  "homepage": "https://github.com/JohnnieFucker/dreamix-loader#readme"
+}
