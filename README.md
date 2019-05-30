@@ -3,9 +3,9 @@
 ###改写为es6语法，并且解决class写法下，对象方法不可被枚举的问题。
 
 
-pomelo中使用Convention over Configuration的形式管理工程目录，不同的功能按约定放在不同的目录下。pomelo-loader为pomelo提供了按目录加载模块的功能。
+dreamix中使用Convention over Configuration的形式管理工程目录，不同的功能按约定放在不同的目录下。dreamix-loader为dreamix提供了按目录加载模块的功能。
 
-pomelo-rpc可以批量加载指定目录下的模块，挂到一个空对象下返回（但不会递归加载子目录），同时提供模块命名机制。
+dreamix-rpc可以批量加载指定目录下的模块，挂到一个空对象下返回（但不会递归加载子目录），同时提供模块命名机制。
 
 Tags: node.js
 ##规则说明 模块命名
@@ -27,10 +27,10 @@ module.exports = function(context) {
 };
 ##安装
 
-npm install pomelo-loader
+npm install dreamix-loader
 ##用法
 
-var Loader = require('pomelo-loader');
+var Loader = require('dreamix-loader');
 
 var res = Loader.load('.');
 console.log('res: %j', res);
